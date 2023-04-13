@@ -7,8 +7,27 @@
 .flex{
     display: flex;
 }
+.left{
+    padding: 20px 15px;
+    width: 550px;
+}
+.right{
+    padding: 20px 15px;
+    width: 500px;
+}
 ul{
     list-style: none;
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.pd-button{
+    padding: 3px;
 }
 .widht{
     width: 100%;
