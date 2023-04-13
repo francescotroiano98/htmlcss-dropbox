@@ -17,17 +17,21 @@
 }
 ul{
     list-style: none;
+    align-items: center;
 }
 .left ul li a{
     text-decoration: none;
     color: black;
+    
 }
 .right ul li a{
     text-decoration: none;
     color: black;
+    
 }
 .pd-button{
-    padding: 3px;
+    padding: 5px 15px;
+    border: none;
 }
 .widht{
     width: 100%;
@@ -42,7 +46,7 @@ ul{
     justify-content: space-between;
 }
 .bg-color-blue{
-    background-color: blue;
+    background-color: #0061ff;
 }
 .bg-color-cyan{
     background-color: cyan;
