@@ -108,6 +108,7 @@ li{
     width: 100%;
     background-color: #b4d0e7;
 }
+
 .container-items{
     padding: 20px 23px 0px 20px;
     width: 60%;
@@ -129,7 +130,8 @@ li{
     font-size: 32px;
 }
 .container-text-photo button{
-    margin: 20px 0px;
+    margin: 50px 0px;
+    width: 60%;
 }
 .right-box{
     width: 565px;
