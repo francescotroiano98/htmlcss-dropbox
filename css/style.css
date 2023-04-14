@@ -13,6 +13,9 @@
 .flex-reverse{
     flex-direction: row-reverse;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 p{
     font-size: small;
 }
@@ -73,6 +76,7 @@ li{
 .text-color-white{
     color: white;
 }
+
 .text-bold{
     font-weight: bold;
 }
@@ -81,6 +85,9 @@ li{
 }
 .bg-color-blue{
     background-color: #0061ff;
+}
+.bg-color-white{
+    background-color: #ffffff;
 }
 .bg-color-cyan{
     background-color: cyan;
@@ -91,9 +98,15 @@ li{
 .margin-bottom{
     margin-bottom: 20px;
 }
-.big-container{
+.margin-top{
+    margin-top: 70px;
+}
+.padding-top{
     padding-top: 20px ;
-    height: 500px;
+}
+.big-container{
+    
+    
     width: 100%;
     background-color: #0061ff;
 }
@@ -128,9 +141,8 @@ li{
     width: 35%;
     padding-right: 30px;
 }
-.small-container, .small-container-2, .small-container-3, .smaller-container{
-    margin-top: 70px;
-    padding: 2px 2px;
+.small-container, .small-container-2, .small-container-3, .small-container-4, .smaller-container{
+    padding: 2px 8px;
     width: 50%;
     border: 2px solid #0061ff;
 }
@@ -247,4 +259,43 @@ margin-top: 40px;
     width: 30%;
     height: 300px;
     border: 2px solid black;
+}
+.rectangle{
+    height: 500px;
+    
+}
+.big-square{
+    width: calc(100% / 3);
+    height: 100%;
+    border: 2px solid red;
+}
+.little-square{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+.small-rectangle h2{
+    margin: 65px 0px;
+    width: 40%;
+}
+.small-rectangle button{
+    margin: 80px 17px;
+    padding: 0px 25px;
+    border: none;
+}
+.small-container-4 h2{
+    margin: 65px 0px 40px 2px;
+}
+.small-container-4 hr{
+    width: 100%;
+
+}
+.small-container-4 i{
+    margin-right: 20px;
+
+}
+
+
+.height{
+    height: 500px;
 }
