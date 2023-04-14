@@ -128,7 +128,7 @@ li{
     width: 35%;
     padding-right: 30px;
 }
-.small-container, .small-container-2, .small-container-3{
+.small-container, .small-container-2, .small-container-3, .smaller-container{
     margin-top: 70px;
     padding: 2px 2px;
     width: 50%;
@@ -223,6 +223,10 @@ hr{
 .margin-top-column{
 margin-top: 40px;
 }
+.padding-right-plus
+{
+    padding-right: 400px;
+}
 .padding-right{
     padding-right: 128px;
 }
@@ -241,6 +245,6 @@ margin-top: 40px;
 }
 .box{
     width: 30%;
-    height: 200px;
+    height: 300px;
     border: 2px solid black;
 }
