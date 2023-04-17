@@ -112,10 +112,8 @@ li{
 .container-items{
     padding: 20px 23px 0px 20px;
     width: 60%;
-    height: 517px;
 }
 .h1-container{
-    margin-bottom: 40px;
     text-align: left;
     font-size: 2.45rem;
 }
@@ -124,23 +122,24 @@ li{
     width: 100%;
 }
 .container-text-photo i{
-    margin-top: 51px;
+    margin-top: 19px;
+    margin-bottom: 5px;
     font-size: 32px;
 }
 .container-text-photo button{
-    margin: 35px 0px;
-    width: 60%;
+    margin-right: 90px;
 }
-.right-box{
-    width: 565px;
-}
+
 .right-box img{
-    width: 669px;
+    position: relative;
+    top: 47px;
+    width: 597px;
 }
-.left-box{
-    height: 100%;
-    width: 100%;
+.left-box p{
+    margin-top: 46px;
+    margin-bottom: 20px;
 }
+
 .small-container, .small-container-2, .small-container-3, .small-container-4, .smaller-container{
     padding: 2px 8px;
     width: 50%;
@@ -254,12 +253,8 @@ margin-top: 40px;
     width: 400px;
     height: 350px;
 }
-.box-container{
-    border: 2px solid red;
-}
 .box{
     width: 32%;
-    border: 2px solid black;
     margin-bottom: 30px;
 }
 .box img{
