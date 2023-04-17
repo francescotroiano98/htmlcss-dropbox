@@ -265,14 +265,22 @@ margin-top: 40px;
 }
 
 .big-square{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: 2px solid red;
+
+}
+.big-square img{
+    width: 50%;
 }
 .little-square{
     width: 50%;
     height: 50%;
-    border: 2px solid black;
+}
+.little-square img{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    filter: invert(1);
 }
 .small-rectangle h2{
     margin: 65px 0px;
@@ -311,4 +319,8 @@ footer li{
 }
 footer{
     background-color: black;
+}
+.container-items-footer{
+    padding: 40px 23px 44px 20px;
+    width: 60%;
 }
