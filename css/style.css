@@ -34,10 +34,12 @@ p{
 .left{
     padding: 20px 15px;
     width: 550px;
+    min-width: 420px;
 }
 .right{
     padding: 20px 15px;
     width: 500px;
+    min-width: 420px;
 }
 ul{
     list-style: none;
@@ -192,7 +194,7 @@ h3{
     text-align: center;
     padding: 7px 0;
 
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     font-size: small;
 }
 i{
